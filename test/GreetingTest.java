@@ -1,0 +1,8 @@
+import org.junit.jupiter.api.Test;
+
+public class GreetingTest {
+    @Test
+    public void Greeting() {
+
+    }
+}
