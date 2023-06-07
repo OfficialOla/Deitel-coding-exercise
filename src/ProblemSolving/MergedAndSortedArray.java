@@ -1,6 +1,5 @@
 package ProblemSolving;
 
-import java.awt.print.PrinterGraphics;
 import java.util.*;
 
 public class MergedAndSortedArray {
@@ -13,12 +12,21 @@ public class MergedAndSortedArray {
         }
         for (int j : arr2) {
             newArr.add(j);
-
         }
-            Collections.sort(newArr);
-
+        for (int i = 0; i < newArr.size() ; i++) {
+            for (int j = 0; j < newArr.size(); j++) {
+                if (newArr.get(i) < newArr.get(j)) {
+                    int temp = newArr.get(i);
+                    newArr.set(i, newArr.get(j));
+                    newArr.set(j, temp);
+                }
+            }
+        }
         System.out.println(newArr);
     }
-}
+
+    }
+
+
 
 

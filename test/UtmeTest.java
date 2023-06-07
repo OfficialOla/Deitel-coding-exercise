@@ -9,7 +9,6 @@ public class UtmeTest {
     @Test
     public void firstDrillerTest() {
         Utme firstSet = new Utme();
-
         int result = firstSet.productOf(2);
         assertEquals(4000, result);
     }

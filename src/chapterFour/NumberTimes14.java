@@ -9,10 +9,10 @@ public class NumberTimes14 {
 //            int multiply = userInput * count;
 //            System.out.printf("%d * %d = %d \n", userInput, count, multiply);
 //        }
-        int count = 12;
-        while (count >= 1 ) {
+        int count = 1;
+        while (count <= 12 ) {
           int multiply = userInput * count;
-            System.out.printf("%d * %d = %d \n", userInput, count, multiply); count--;
+            System.out.printf("%d * %d = %d \n", userInput, count, multiply); count++;
         }
 
             }

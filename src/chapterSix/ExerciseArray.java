@@ -1,4 +1,4 @@
-package chapterSix;
+ package chapterSix;
 
 public class ExerciseArray {
         public static int numberIsPrime(int number) {
@@ -22,8 +22,9 @@ public class ExerciseArray {
 
         }
         public static void main(String[] args) {
-                    numberIsPrime(1);
-            primeLessThan10_000(10000);
+                    numberIsPrime(7);
+            System.out.println();
+            primeLessThan10_000(100);
         }
 
     }

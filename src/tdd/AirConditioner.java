@@ -15,6 +15,6 @@ public class AirConditioner {
     public boolean getTurnOff() {
         return isOff;
     }
-      public void increaseTemperature(boolean value) {
+      public void  increaseTemperature(boolean value) {
     }
 }

@@ -1,2 +1,7 @@
-package chapterSix;public enum Crap {
+package chapterSix;
+
+public enum Crap {
+    WON,
+    CONTINUE,
+    LOST
 }
